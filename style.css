@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#calculos {
+    border: 1px solid red;
+    width: 100vw;
+    min-height: 40vh;
+    display: grid;
+    margin-top: 30vh;
+}
+
+#calculos article {
+    height: 10vh;
+    margin: 0 10vw 0 10vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#calculos hr {
+    width: 75vw;
+    border: none;
+    border-top: 1px solid black;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#calculos article input {
+    width: 10vw;
+    height: 14vw;
+    margin-left: 2vw;
+    text-align: center;
+    font-size: 8vw;
+    border: none;
+}
+
+#calculos article:nth-child(4) input {
+    border-bottom: 1px solid black;
+}
